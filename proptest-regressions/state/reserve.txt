@@ -1,0 +1,16 @@
+# Seeds for failure cases proptest has generated in the past. It is
+# automatically read and these particular cases re-run before any
+# novel cases are generated.
+#
+# It is recommended to check this file in to source control so that
+# everyone who runs the test benefits from these saved cases.
+cc ad39100108f5724328e3eb6d9234ec9b52d8e417d684c2c909af0f2f1c9c1364 # shrinks to total_liquidity = 0, borrowed_percent = 0, optimal_utilization_rate = 0, owner_unclaimed_amount = 1, (min_borrow_rate, optimal_borrow_rate, max_borrow_rate) = (0, 0, 0)
+cc 4703cfca9c439742638526a15b98369264a16ed6b793354cda0511aed983f109 # shrinks to total_liquidity = 2122601831330021, borrowed_percent = 0, optimal_utilization_rate = 0, owner_unclaimed_amount = 0, (min_borrow_rate, optimal_borrow_rate, max_borrow_rate) = (0, 0, 0)
+cc 953b74803be2430d59a374e98d09ba0dea47c75df4a7b1fcfa5529ea09964f9d # shrinks to mint_total_supply = 0, total_liquidity = 0, borrowed_percent = 0, optimal_utilization_rate = 0, owner_unclaimed_amount = 0, (min_borrow_rate, optimal_borrow_rate, max_borrow_rate) = (0, 0, 0)
+cc 7849da8167646130a866734b2b7b432f71f20041c0f43201ffd6fbc29d4798bc # shrinks to mint_total_supply = 0, total_liquidity = 1206236262871716, borrowed_percent = 505742542037440098, optimal_utilization_rate = 0, owner_unclaimed_amount = 0, (min_borrow_rate, optimal_borrow_rate, max_borrow_rate) = (0, 0, 0), cumulative_borrow_rate_wads = 1000000000000000000, slots_elapsed = 48961586, borrow_rate = 208, reserve_owner_fee_wad = 0
+cc 66e4f87044c0b1cad596244321d454bcdfa69432afbfd5b2f45a489671daddf5 # shrinks to total_liquidity = 528364739443225, borrowed_percent = 197578889873025954, optimal_utilization_rate = 0, owner_unclaimed_amount = 422970666325458614988095355737182, (min_borrow_rate, optimal_borrow_rate, max_borrow_rate) = (0, 0, 199), slots_elapsed = 57315166, reserve_owner_fee_wad = 0
+cc f1497734008a3d20565ee75a46208a08ad5eede943643b02e1dd10876d8facef # shrinks to total_liquidity = 374810653401540657, borrowed_percent = 805769913899590049, optimal_utilization_rate = 0, owner_unclaimed_amount = 0, (min_borrow_rate, optimal_borrow_rate, max_borrow_rate) = (0, 252, 254), slots_elapsed = 61956920, reserve_owner_fee_wad = 720947952493510859
+cc 57058f48ae11e6f364baaae02ea054d6de4355b105cb78970dc3e93e1fab0870 # shrinks to slots_elapsed = 63071999, borrow_rate = 24
+cc ac34ac9b961281c4ef186f396793fdba47a1f5918886754ea16902857c1740ee # shrinks to slots_elapsed = 63071999, borrow_rate = 33
+cc 0d4f17eadc4aab6e8ad70ab3bcd45ef22643c29b8edf5b6277d7b193122eb25a # shrinks to slots_elapsed = 63071999, borrow_rate = 34
+cc 9f19a6f553fcf3b6d83676484ad136d9fcec25e87a3c02a3d134b57c39adad1b # shrinks to total_liquidity = 3074457345618258602, borrowed_percent = 1, optimal_utilization_rate = 1, (min_borrow_rate, optimal_borrow_rate, max_borrow_rate) = (0, 0, 0), slots_elapsed = 1
