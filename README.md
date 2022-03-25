@@ -1,1 +1,1 @@
-AllWin protocol: A lossless lottery application built on the Solana chain!
+AllWin protocol: The price-linked savings protocol on Solana
