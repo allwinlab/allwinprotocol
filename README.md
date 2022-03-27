@@ -1,1 +1,1 @@
-AllWin protocol: The price-linked saving protocol on Solana
+ALLWIN is a decentralized prize-linked saving protocol on Solana
